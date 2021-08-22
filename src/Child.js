@@ -4,7 +4,7 @@ import './App.css';
 function Child(props) {
   return (
     <div >
-     CHILD1
+     CHILD1 {props.num}
     </div>
   );
 }
